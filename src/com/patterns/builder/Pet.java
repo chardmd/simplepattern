@@ -1,4 +1,4 @@
-package com.designpatterns.simple;
+package com.patterns.builder;
 import java.util.Date;
 
 /**
@@ -9,7 +9,7 @@ import java.util.Date;
    
    Pet.Builder builder = new Pet.Builder();
    Pet pet = builder
-			.withAnimal("Cat")
+			.withAnimal(Animal.CAT)
 			.withAddress("Dau Mabalacat, Philippines")
 			.withOwner("Bilzerian")
 			.withName("Catty")
@@ -19,13 +19,13 @@ import java.util.Date;
  */
 public class Pet {
 
-	private Pet(String animal, String name, String owner, String address, 
+	private Pet(Animal animal, String name, String owner, String address, 
 			String telephone, Date dateOfBirth, String emailAddress) {
 	}
 	
 	public static class Builder {
 		
-		private String animal;
+		private Animal animal;
 		private String name;
 		private String owner;
 		private String address;
@@ -33,7 +33,7 @@ public class Pet {
 		private Date dateOfBirth;
 		private String emailAddress;
 		
-		public Builder withAnimal(String animal) {
+		public Builder withAnimal(Animal animal) {
 			this.animal = animal;
 			return this;
 		}
