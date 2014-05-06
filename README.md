@@ -1,7 +1,7 @@
 simplepattern
 =============
 
-### A collections of Java Design Patterns
+### A collection of Java Design Patterns
 
 * Builder Pattern
 * Strategy Pattern
