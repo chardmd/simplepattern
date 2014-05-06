@@ -5,3 +5,4 @@ simplepattern
 
 * Builder Pattern
 * Strategy Pattern
+* Decorator Pattern
