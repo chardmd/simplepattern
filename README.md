@@ -6,3 +6,4 @@ simplepattern
 * Builder Pattern
 * Strategy Pattern
 * Decorator Pattern
+* Singleton Pattern
