@@ -7,3 +7,4 @@ Simple Pattern
 * Strategy Pattern
 * Decorator Pattern
 * Singleton Pattern
+* Template Pattern
