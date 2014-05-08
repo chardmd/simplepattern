@@ -1,4 +1,4 @@
-simplepattern
+Simple Pattern
 =============
 
 ### A collection of Java Design Patterns
