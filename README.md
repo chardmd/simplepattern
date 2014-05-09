@@ -9,3 +9,4 @@ Simple Pattern
 * Singleton Pattern
 * Template Pattern
 * Flyweight Pattern
+* Factory Pattern
