@@ -1,12 +1,18 @@
 Simple Pattern
 =============
 
-### A collection of Java Design Patterns
+## A collection of Java Design Patterns
 
+### Creation Design Patterns
 * Builder Pattern
-* Strategy Pattern
-* Decorator Pattern
-* Singleton Pattern
-* Template Pattern
-* Flyweight Pattern
 * Factory Pattern
+* Singleton Pattern
+
+### Structural Design Pattern
+* Flyweight Pattern
+* Decorator Pattern
+
+
+### Behavioral Pattern
+* Strategy Pattern
+* Template Pattern
