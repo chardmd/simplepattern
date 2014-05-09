@@ -8,3 +8,4 @@ Simple Pattern
 * Decorator Pattern
 * Singleton Pattern
 * Template Pattern
+* Flyweight Pattern
